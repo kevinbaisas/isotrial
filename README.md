@@ -6,6 +6,16 @@ Boilerplate for isomorphic rendering using redux.
 * Mongoose - API DB
 * React & Redux for anything else
 
+## As of 04/22/17
+This boilerplate implments the latest versions of:
+* react-helmet `^5.0.3`
+* react-redux `^5.0.4`
+* react-router `4.1.1`
+* react-router-config `^1.0.0-beta.3`
+* react-router-dom `^4.1.1`
+* react-router-redux `^5.0.0-alpha.6`
+* redux `^3.6.0`,
+
 ## Prerequisites
 * NodeJSv7+ (Koa is used as the server side renderer)
 
@@ -17,8 +27,7 @@ Boilerplate for isomorphic rendering using redux.
 * `npm start`
 
 ## NOTES
-* I included some example implementations of redux state, socket.io, thunk, saga and observable. Feel free to remove those.
-* For example implementations of saga/observable etc. check: https://github.com/kvnbai/redux-isomorphic-spa-boilerplate-example
+* For example implementations of websockets/saga/observable etc. check: https://github.com/kvnbai/redux-isomorphic-spa-boilerplate-example
 
 ## For front-end only development:
 change history/createBrowserHistory tohistory/createHashHistory on line 4
