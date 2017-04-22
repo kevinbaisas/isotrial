@@ -2,8 +2,6 @@
 import { applyMiddleware }  from 'redux';
 import { createLogger }     from 'redux-logger'
 import thunk                from 'redux-thunk';
-import websocketMiddleware  from './websocket';
-import promiseMiddleware    from './promise';
 
 /**
  * NOTE:
@@ -19,7 +17,6 @@ const apply = (...middlewares) => {
 
     return applyMiddleware(
       thunk,
-      websocketMiddleware,
       ...middlewares,
       logger,
     );
@@ -27,7 +24,6 @@ const apply = (...middlewares) => {
 
   return applyMiddleware(
     thunk,
-    websocketMiddleware,
     ...middlewares,
   );
 }

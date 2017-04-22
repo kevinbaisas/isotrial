@@ -18,6 +18,7 @@ Boilerplate for isomorphic rendering using redux.
 
 ## NOTES
 * I included some example implementations of redux state, socket.io, thunk, saga and observable. Feel free to remove those.
+* For example implementations of saga/observable etc. check: https://github.com/kvnbai/redux-isomorphic-spa-boilerplate-example
 
 ## For front-end only development:
 change history/createBrowserHistory tohistory/createHashHistory on line 4
