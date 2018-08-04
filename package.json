@@ -34,7 +34,7 @@
     "mongoose": "^4.9.5",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react-dom": "^16.0.1",
     "react-helmet": "^5.0.3",
     "react-redux": "^5.0.4",
     "react-router": "^4.1.1",
