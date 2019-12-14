@@ -4,7 +4,9 @@
   "description": "Boilerplate for isomorphic rendering using redux",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "concurrently \"node api/app.js\" \"node bin/www\""
+    "start": "concurrently \"node api/app.js\" \"node bin/www\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": "https://github.com/kvnbai/redux-isomorphic-spa-boilerplate",
   "author": "kvnbai <kevin.baisas@gmail.com>",
@@ -51,6 +53,8 @@
     "socket.io": "^1.7.3",
     "underscore": "^1.8.3",
     "validator": "^7.0.0",
-    "webpack": "^2.4.1"
-  }
+    "webpack": "^2.4.1",
+    "snyk": "^1.260.0"
+  },
+  "snyk": true
 }
